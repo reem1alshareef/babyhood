@@ -2,24 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-   
-    <title> jobRequest</title>
-    <style>
-        body {
-          background-image: url("../7602916.png");
-          background-repeat:no-repeat ;
-          background-position:right;
-
-          background-color: rgb(210, 246, 255);
-        }
-        </style>
-</head>
-<body>
     
-   <center><h1>Job Request </h1></center>
-    <form>
+    <link rel="stylesheet" type="text/css" href="C:\Users\asus\Desktop\PA\.vscode\style.css">
+    <title> jobRequest</title>
+</head>
+<body class="job-request-page">
+    
+   <h1 class="New-Job-Request">New Job Request </h1>
+   <h4 class="New-Job-Request">Find your perfect babysitter right now! </h4>
+   <form action="#" method="post">
        
-        <p>
+        <p class="my-kids-in-jobRequest">
             <fieldset>
                 <legend><strong> My kids:</strong></legend>
                 <label>name:</label>
@@ -85,7 +78,7 @@
             <br>
             <br>
             <label>other services:
-                <input name="service" type="text" >
+                <input type="text" size="40">
             </label>
             
             <br>
@@ -116,8 +109,16 @@
                 </label>
             </fieldset>
             </p>
-            <input name="Edit" type="reset" value="Edit">
-            <input name="Cancel" type="button" value="Cancel">
+            <p>
+                <input type="submit" value="send" class="Send-request-button">
+            </p>
+            <p class="Cancel-and-Edit-button">
+            <input type="button"  class="Cancel-request-button" value="Cancel"><input type ="button"  class="Edit-request-button" value="Edit " >
+
+            </p>
+            
+    
+           
             
     </form>
 
