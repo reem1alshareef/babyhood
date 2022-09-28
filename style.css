@@ -1,0 +1,276 @@
+parent-profile {
+    padding: 5px;
+   width: 70%;
+   height: 130px; 
+   margin-bottom: 20px;
+   margin-left: 15%;
+   margin-right: 15%;
+   text-align: left;
+   border:solid 9px rgb(196, 232, 243);
+   background-color:rgb(255, 255, 255);
+   
+   }
+  
+   
+   .photo{
+    float: right;
+    padding: 0%;
+   }
+   .request-list{
+     background-image: url(../../watercolor-cloud-pattern-background-2-1.jpg);
+   }
+   .request-list h1{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+     text-align: center;
+     color: rgb(9, 27, 45);}
+     .request-list h3{
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-style: italic;
+       text-align: center;
+       color: rgb(53, 72, 79);
+     
+ 
+   }
+   h1.New-Job-Request{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+     text-align: center;
+     color: rgb(2, 2, 38);}
+     
+   
+   h4.New-Job-Request {
+     color: rgb(62, 71, 79);
+     text-align: center;
+   }
+  body.job-request-page{
+     text-align: left;
+     background-color: aliceblue;
+     width: 50%;
+     margin-left: 25%;}
+   
+ 
+   .kids-info h5 {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: #354057;
+     font-size: 20px;
+     margin: 0;
+     padding: 10px 0 0 ;
+    
+ 
+   }
+   .kids-info h2 {
+     padding-top: 0%;
+     padding-right: 0%;
+     color: #071534;
+     font-size: 30px;
+     background-color: #5eb8df;
+   text-align: center;
+   
+ }
+ .kids-info{
+   width: 30%;
+   margin-left: 5%;
+   background: #7dcad6;
+     border: 5px solid #78b2b8;
+   text-align: center;
+   padding: 0 0;
+   position: relative;
+   overflow: scroll;
+   height: 50px;
+   
+   
+   
+ 
+ }
+  .services{
+     background: #fff;
+     border: 5px solid #5fb3bd;
+     border-radius: 4px;
+     height: 150px;
+     padding: 15px 15px 15px 15px;
+     position: relative;
+     width: 30%;
+   margin-left: 35%;
+   text-align: left;
+   position: relative;
+   bottom: 380px;
+  
+  
+ 
+ }
+ .services h2 {
+     text-align: center;
+   padding-top: 0%;
+     padding-right: 0%;
+     color: #071534;
+     font-size: 30px;
+     background-color: #5eb8df;
+ 
+   
+ }
+ .workDays{
+     background: #fff;
+     border: 5px solid #5fb3bd;
+     border-radius: 4px;
+     height: 150px;
+     padding: 15px 15px 15px 15px;
+     position: relative;
+     width: 20%;
+   margin-left: 70%;
+   text-align: left;
+   position: relative;
+   bottom: 570px;
+   
+ 
+ }
+ .workDays h2 {
+     text-align: center;
+   padding-top: 0%;
+     padding-right: 0%;
+     color: #071534;
+     font-size: 30px;
+     background-color: #5eb8df;
+ 
+   
+ }
+ .location{
+     background: #fff;
+     border: 5px solid #5fb3bd;
+     border-radius: 4px;
+     height: 150px;
+     padding: 15px 15px 15px 15px;
+     position: relative;
+     width: 55%;
+   margin-left: 36%;
+     text-align: left;
+     position: relative;
+     bottom: 560px;
+   
+ 
+ }
+ .location h2 {
+     text-align: center;
+   padding-top: 0%;
+     padding-right: 0%;
+     color: #071534;
+     font-size: 30px;
+     background-color: #5eb8df;
+ 
+   
+ }
+ .kids-info {
+     background: #fff;
+     border: 5px solid #5fb3bd;
+     border-radius: 4px;
+     height: 350px;
+     padding: 15px 15px 15px 15px;
+     position: relative;
+     width: 320px;
+ }
+  .kids-info h2 {
+     text-align: center;
+ }
+ .kids-info h6 {
+     color: #354057;
+     font-size: 20px;
+     font-weight: normal;
+     margin: 0;
+     padding: 10px 0 0;
+     text-transform: none;}
+ 
+  .kids-info p {
+ 
+     
+     font-size: 12px;
+     line-height: 24px;
+     margin: 0 0 24px;
+     padding: 0;
+ }
+ 
+ .sendPrice{
+  
+     height: 50px;
+     padding: 15px 15px 15px 15px;
+     position: relative;
+     width: 80%;
+   margin: 10%;
+   text-align: center;
+   position: relative;
+   bottom: 700px;
+   color: #010d12;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: x-large;
+   font-weight: 900;
+ 
+ }
+ .parent{
+   background-color: rgb(229, 235, 244);
+ }
+ .buttonSend{
+         display: inline-block;
+         background-color: #05041a;
+         border-radius: 10px;
+         border: 4px double #cccccc;
+         color: #ffffff;
+         text-align: center;
+         font-size: 15px;
+         padding: 2px;
+         width: 70px;
+ }
+ .buttonSend:hover{
+   background-color: rgb(135, 145, 159);  }
+   .Cancel-request-button{
+     display: inline-block;
+     background-color: #05041a;
+     border-radius: 10px;
+     border: 4px double #cccccc;
+     color: #ffffff;
+     text-align: center;
+     font-size: 15px;
+     padding: 2px;
+     width: 200px;
+     height: 28px;
+   
+ 
+ }
+ .Cancel-request-button:hover{
+   background-color: rgb(135, 145, 159);}
+   
+     .Edit-request-button{
+       display: inline-block;
+       background-color: #05041a;
+       border-radius: 10px;
+       border: 4px double #cccccc;
+       color: #ffffff;
+       text-align: center;
+       font-size: 15px;
+       padding: 2px;
+       width: 200px;
+       height: 28px;
+     
+   
+          
+   }
+   .Edit-request-button:hover{
+     background-color: rgb(135, 145, 159);  }
+     .Send-request-button{
+       display: inline-block;
+       background-color: #05041a;
+       border-radius: 10px;
+       border: 4px double #cccccc;
+       color: #ffffff;
+       text-align: center;
+       font-size: 15px;
+       padding: 2px;
+       width: 40%;
+       margin-left: 27%;
+         
+     }
+     .Send-request-button:hover{
+         background-color: rgb(135, 145, 159);  }
+   .Cancel-and-Edit-button{
+     width: 80%;
+     margin-left: 15%;
+   }
+ 
