@@ -51,7 +51,7 @@
      margin-left: 25%;}
    
  
-   .kids-info h5 {
+   .kids-info h5 , .babysitter-info  h3{
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      color: #354057;
      font-size: 20px;
@@ -60,7 +60,7 @@
     
  
    }
-   .kids-info h2 {
+   .kids-info h2 , .babysitter-info h2 {
      padding-top: 0%;
      padding-right: 0%;
      color: #071534;
@@ -69,21 +69,26 @@
    text-align: center;
    
  }
- .kids-info{
-   width: 30%;
+ 
+   
+   .babysitter-info{
+    width: 400px;
    margin-left: 5%;
-   background: #7dcad6;
+   background: #ffffff;
      border: 5px solid #78b2b8;
    text-align: center;
    padding: 0 0;
    position: relative;
-   overflow: scroll;
-   height: 50px;
-   
-   
+   height: 340px;}
+   .babysitter-info p{
+    font-size: medium;
+    text-align: left;
+    padding:10px ;
+    text-indent: 10px;
+   }
    
  
- }
+ 
   .services{
      background: #fff;
      border: 5px solid #5fb3bd;
@@ -92,24 +97,31 @@
      padding: 15px 15px 15px 15px;
      position: relative;
      width: 30%;
-   margin-left: 35%;
-   text-align: left;
-   position: relative;
-   bottom: 380px;
-  
-  
- 
- }
- .services h2 {
+    margin-left: 35%;
+    text-align: left;
+    position: relative;
+    bottom: 380px;}
+ .services h2,.Experience h2 {
      text-align: center;
    padding-top: 0%;
      padding-right: 0%;
      color: #071534;
      font-size: 30px;
-     background-color: #5eb8df;
- 
-   
- }
+     background-color: #5eb8df;  }
+     .Experience{
+      background: #fff;
+      border: 5px solid #5fb3bd;
+      border-radius: 4px;
+      height: 150px;
+      padding: 15px 15px 15px 15px;
+      position: relative;
+      width: 27%;
+    margin-left: 39%;
+    text-align: left;
+    position: relative;
+    bottom: 350px;
+
+     }
  .workDays{
      background: #fff;
      border: 5px solid #5fb3bd;
@@ -121,11 +133,22 @@
    margin-left: 70%;
    text-align: left;
    position: relative;
-   bottom: 570px;
-   
- 
- }
- .workDays h2 {
+   bottom: 570px; }
+   .workDaysBabysitter{
+    background: #fff;
+    border: 5px solid #5fb3bd;
+    border-radius: 4px;
+    height: 150px;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    width: 20%;
+  margin-left: 70%;
+  text-align: left;
+  position: relative;
+  bottom: 500px;}
+  
+
+ .workDays h2 ,.workDaysBabysitter h2{
      text-align: center;
    padding-top: 0%;
      padding-right: 0%;
@@ -143,14 +166,28 @@
      padding: 15px 15px 15px 15px;
      position: relative;
      width: 55%;
-   margin-left: 36%;
+      margin-left: 36%;
      text-align: left;
      position: relative;
      bottom: 560px;
-   
- 
+  
  }
- .location h2 {
+
+.price{
+  background: #fff;
+  border: 5px solid #5fb3bd;
+  border-radius: 4px;
+  height: 130px;
+  padding: 15px 15px 15px 15px;
+  position: relative;
+  width: 20%;
+   margin-left: 39%;
+  text-align: left;
+  position: relative;
+  bottom: 520px;
+ 
+}
+ .location h2 ,.price h2 {
      text-align: center;
    padding-top: 0%;
      padding-right: 0%;
@@ -168,6 +205,9 @@
      padding: 15px 15px 15px 15px;
      position: relative;
      width: 320px;
+     width: 30%;
+  
+  overflow: scroll;
  }
   .kids-info h2 {
      text-align: center;
@@ -202,12 +242,9 @@
    color: #010d12;
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: x-large;
-   font-weight: 900;
+   font-weight: 900;}
  
- }
- .parent{
-   background-color: rgb(229, 235, 244);
- }
+
  .buttonSend{
          display: inline-block;
          background-color: #05041a;
@@ -299,6 +336,11 @@
        height: 40px}
      .details-button:hover{
          background-color: rgb(135, 145, 159);  }
-
+        
+        .parent{
+         margin-top: 60px;
+         background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
+         
+        }
         
  
