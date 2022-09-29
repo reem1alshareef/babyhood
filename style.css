@@ -1,4 +1,4 @@
-parent-profile {
+.parent-profile{
     padding: 5px;
    width: 70%;
    height: 130px; 
@@ -222,7 +222,7 @@ parent-profile {
    background-color: rgb(135, 145, 159);  }
    .Cancel-request-button{
      display: inline-block;
-     background-color: #3f5d9d;
+     background-color: rgb(71, 126, 142);
      border-radius: 10px;
      border: 4px double #cccccc;
      color: #ffffff;
@@ -239,7 +239,7 @@ parent-profile {
    
      .Edit-request-button{
        display: inline-block;
-       background-color: #3f5d9d;
+       background-color:  rgb(71, 126, 142);
        border-radius: 10px;
        border: 4px double #cccccc;
        color: #ffffff;
@@ -256,7 +256,7 @@ parent-profile {
      background-color: rgb(135, 145, 159);  }
      .Send-request-button{
        display: inline-block;
-       background-color: #3f5d9d;
+       background-color:  rgb(71, 126, 142);
        border-radius: 10px;
        border: 4px double #cccccc;
        color: #ffffff;
