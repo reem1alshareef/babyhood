@@ -79,13 +79,14 @@
    text-align: center;
    padding: 0 0;
    position: relative;
-   height: 340px;}
+   height: 380px;
+  top:30px;}
    .babysitter-info p{
     font-size: medium;
     text-align: left;
     padding:10px ;
-    text-indent: 10px;
-   }
+    text-indent: 10px;}
+    
    
  
  
@@ -145,7 +146,7 @@
   margin-left: 70%;
   text-align: left;
   position: relative;
-  bottom: 500px;}
+  bottom: 450px;}
   
 
  .workDays h2 ,.workDaysBabysitter h2{
@@ -180,7 +181,7 @@
   height: 130px;
   padding: 15px 15px 15px 15px;
   position: relative;
-  width: 20%;
+  width: 27%;
    margin-left: 39%;
   text-align: left;
   position: relative;
