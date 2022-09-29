@@ -17,15 +17,15 @@
     float: right;
     padding: 0%;
    }
-   .request-list{
+   .background{
      background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
    }
-   .request-list h1{
+   .background h1{
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-style: italic;
      text-align: center;
      color: rgb(9, 27, 45);}
-     .request-list h3{
+     .background h3{
        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-style: italic;
        text-align: center;
@@ -44,7 +44,7 @@
      color: rgb(62, 71, 79);
      text-align: center;
    }
-  body.job-request-page{
+  .job-request-page{
      text-align: left;
      background-color: aliceblue;
      width: 50%;
