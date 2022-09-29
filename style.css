@@ -8,7 +8,7 @@
    text-align: left;
    border:solid 9px rgb(196, 232, 243);
    background-color:rgb(255, 255, 255);
-   
+  
    
    }
   
@@ -18,7 +18,7 @@
     padding: 0%;
    }
    .request-list{
-     background-image: url(../../watercolor-cloud-pattern-background-2-1.jpg);
+     background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
    }
    .request-list h1{
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -296,10 +296,7 @@
        font-size: 15px;
        padding: 2px;
        width: 150px;
-       height: 40px
-       
-         
-     }
+       height: 40px}
      .details-button:hover{
          background-color: rgb(135, 145, 159);  }
 
