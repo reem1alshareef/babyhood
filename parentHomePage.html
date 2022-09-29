@@ -2,26 +2,26 @@
 <html>
     <head>
         <mata charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../web-project/style.css">
         <title>parentHomePage</title>
     </head>
-    <body>
-        <fieldset>
-        <label><input type="button" value="manage profile" ></label>
+    <body class="background" style="text-align:center">
+        <br>
+        <fieldset class="home-page-border">
+        <br>
+        <label onclick="location.href='signupParentM.html';"><input type="button" value="manage profile" class="details-button"></label>
         <br>
         <br>
-        <label>
-            <a href="C:\Users\asus\Documents\GitHub\web-project\jobRequest.html"><input type="button" value="new job request">
-            </a></label>
+        <label onclick="location.href='requestList.html';"><input type="button" value="new job request" class="details-button"></label>
         <br>
         <br>
-        <label><input type="button" value="offer list"></label>
+        <label onclick="location.href='viewOfferList.html';"><input type="button" value="offer list" class="details-button"></label>
         <br>
         <br>
-        <p>booking state : </p>
-        <label><input type="radio" name="view-booking">view current booking</label>
-        <label><input type="radio" name="view-booking">view previouse booking</label>
-        <!--تنحط بنهايه الصفحه نضبطها بال css-->
-        <label><input type="button" value="log out"></label>
+        <label onclick="location.href='bookingStatus.html';"><input type="button" value="bookig status" class="details-button"></label>
+        
+        <label onclick="location.href='homepageeM.html';"><input type="button" value="log out" class="details-button"></label>
+        <br>
         <br>
         </fieldset>
     </body>
