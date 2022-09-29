@@ -222,7 +222,7 @@ parent-profile {
    background-color: rgb(135, 145, 159);  }
    .Cancel-request-button{
      display: inline-block;
-     background-color: #05041a;
+     background-color: #3f5d9d;
      border-radius: 10px;
      border: 4px double #cccccc;
      color: #ffffff;
@@ -239,7 +239,7 @@ parent-profile {
    
      .Edit-request-button{
        display: inline-block;
-       background-color: #05041a;
+       background-color: #3f5d9d;
        border-radius: 10px;
        border: 4px double #cccccc;
        color: #ffffff;
@@ -256,21 +256,23 @@ parent-profile {
      background-color: rgb(135, 145, 159);  }
      .Send-request-button{
        display: inline-block;
-       background-color: #05041a;
+       background-color: #3f5d9d;
        border-radius: 10px;
        border: 4px double #cccccc;
        color: #ffffff;
        text-align: center;
        font-size: 15px;
        padding: 2px;
-       width: 40%;
-       margin-left: 27%;
+       width: 200px;
+       height: 28px
+       
          
      }
      .Send-request-button:hover{
          background-color: rgb(135, 145, 159);  }
-   .Cancel-and-Edit-button{
-     width: 80%;
-     margin-left: 15%;
-   }
+         .Send-and-Cancel-request-button{
+          width: 80%;
+          margin-left: 20%;
+         }
+   
  
