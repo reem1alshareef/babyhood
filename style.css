@@ -285,7 +285,23 @@
           background-color:rgb(255, 255, 255);
           margin-left: 12px;
         margin-top: 30px;
-         
-        
         }
+        .details-button{
+          display: inline-block;
+       background-color:  rgb(196, 232, 243);
+       border-radius: 10px;
+       border: 4px double #000000;
+       color: #000000;
+       text-align: center;
+       font-size: 15px;
+       padding: 2px;
+       width: 150px;
+       height: 40px
+       
+         
+     }
+     .details-button:hover{
+         background-color: rgb(135, 145, 159);  }
+
+        
  
