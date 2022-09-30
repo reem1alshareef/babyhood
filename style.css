@@ -7,10 +7,7 @@
    margin-right: 15%;
    text-align: left;
    border:solid 9px rgb(196, 232, 243);
-   background-color:rgb(255, 255, 255);
-  
-   
-   }
+   background-color:rgb(255, 255, 255);}
   
    
    .photo{
@@ -66,12 +63,8 @@
      color: #071534;
      font-size: 30px;
      background-color: #5eb8df;
-   text-align: center;
-   
- }
- 
-   
-   .babysitter-info{
+   text-align: center;}
+  .babysitter-info{
     width: 400px;
    margin-left: 5%;
    background: #7dcad6;
@@ -88,11 +81,7 @@
     text-align: left;
     padding:10px ;
     text-indent: 10px;}
-    
-   
- 
- 
-  .services{
+    .services{
      background: #fff;
      border: 5px solid #5fb3bd;
      border-radius: 4px;
@@ -199,19 +188,14 @@
    margin-left: 39%;
   text-align: left;
   position: relative;
-  bottom: 520px;
- 
-}
+  bottom: 520px;}
  .location h2 ,.price h2 {
      text-align: center;
    padding-top: 0%;
      padding-right: 0%;
      color: #071534;
      font-size: 30px;
-     background-color: #5eb8df;
- 
-   
- }
+     background-color: #5eb8df;}
  .kids-info {
      background: #fff;
      border: 5px solid #5fb3bd;
@@ -221,12 +205,9 @@
      position: relative;
      width: 320px;
      width: 30%;
-  
-  overflow: scroll;
- }
+      overflow: scroll; }
   .kids-info h2 {
-     text-align: center;
- }
+     text-align: center;}
  .kids-info h6 {
      color: #354057;
      font-size: 20px;
@@ -258,8 +239,6 @@
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: x-large;
    font-weight: 900;}
- 
-
  .buttonSend{
          display: inline-block;
          background-color: #05041a;
@@ -275,10 +254,10 @@
    background-color: rgb(135, 145, 159);  }
    .Cancel-request-button{
      display: inline-block;
-     background-color: rgb(71, 126, 142);
-     border-radius: 10px;
-     border: 4px double #cccccc;
-     color: #ffffff;
+     background-color:  rgb(196, 232, 243);
+       border-radius: 10px;
+       border: 4px double #000000;
+       color: #000000;
      text-align: center;
      font-size: 15px;
      padding: 2px;
@@ -300,27 +279,20 @@
        font-size: 15px;
        padding: 2px;
        width: 200px;
-       height: 28px;
-     
-   
-          
-   }
+       height: 28px;}
    .Edit-request-button:hover{
      background-color: rgb(135, 145, 159);  }
      .Send-request-button{
        display: inline-block;
-       background-color:  rgb(71, 126, 142);
+       background-color:  rgb(196, 232, 243);
        border-radius: 10px;
-       border: 4px double #cccccc;
-       color: #ffffff;
+       border: 4px double #000000;
+       color: #000000;
        text-align: center;
        font-size: 15px;
        padding: 2px;
        width: 200px;
-       height: 28px
-       
-         
-     }
+       height: 28px}
      .Send-request-button:hover{
          background-color: rgb(135, 145, 159);  }
          .Send-and-Cancel-request-button{
@@ -364,13 +336,18 @@
       .home-page-border{
       border-radius: 15px;
       border-color: rgb(121, 199, 232);
-      margin-top: 50px;
-      }
+      margin-top: 50px;}
         .parent{
          margin-top: 60px;
-         background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
-         
-        }
+         background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);}
+        .signUp{
+         width: 44%;
+          margin-left:28% ;
+          padding: 10px;
+          text-align: center;
+          border:solid 9px rgb(196, 232, 243);
+          background-color:rgb(255, 255, 255);
+          margin-top: 50px;}
 
       
  
