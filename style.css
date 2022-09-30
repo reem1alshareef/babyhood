@@ -373,5 +373,22 @@
          background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
          
         }
-        
+        .backgroundHomePage{
+          background-image: url(../web-project/homePage.jpeg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 1300px 650px;
+          background-origin: border-box;
+          background-position-y: 0%;
+        }
+        .homePage{
+      color: #062454;
+       text-align: center;
+       font-size: 20px;
+       padding: 2px;
+       width: 150px;
+       height: 40px;
+       
+       
+        }
  
