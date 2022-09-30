@@ -388,7 +388,17 @@
        padding: 2px;
        width: 150px;
        height: 40px;
-       
-       
         }
+        
+        header{
+        width:100%;
+        height:60px;
+        background-color: #d1dcff;
+      }
+      #logo{
+        float:left;
+      }
+      nav ul{
+        float:right;
+      }
  
