@@ -3,60 +3,79 @@
     <head>
         <meta charset="UTF-8">
         <title>signUpbabysitter</title> 
+        <link rel="stylesheet" type="text/css" href="../web-project/style.css">
+
     </head>
-<body>
+
+    <body class="background" style="text-align:center ; margin-top: 2%; border-style:groove ;" >  
+
 
  <h1>Sign Up</h1>
- <p>Please fill in this form to create an account.</p>
+ <h4>Please fill in this form to create an account.</h4>
  <form method="post">
 
 <label for="Name"><b>First Name </b></label>
  <input type="text" placeholder="Enter First Name" name="Name" required>
-
+<br>
+<br>
 <label for="Name"><b>Last Name </b></label>
  <input type="text" placeholder="Enter Last Name" name="Name" required>
+ <br>
  <br>
 
  <label for="ID"><b>ID </b></label>
  <input type="text" placeholder="Enter ID" name="ID" required>
+ <br>
+ <br>
 
  <label for="age"><b>age</b></label>
  <input type="text" placeholder="Enter age" name="age" required>
- 
+
+<br>
 <br>
 <Label>Gendre:</Label>
  <input type="radio" name="gender" value="male"> Male
  <input type="radio" name="gender" value="female"> Female
- 
+ <br>
  <br>
 
  <label for="email"><b>Email</b></label>
  <input type="email" placeholder="Enter Email" name="email" required>
+<br>
+<br>
 
  <label for="Pic"><b>Upload a photo </b></label>
  <input type="file" placeholder="Enter City " name="City" required>
 <br>
+<br>
  <label for="psw"><b>Password</b></label>
 <input type="password" placeholder="Enter Password" name="psw" required>
 <br>
+<br>
 <label for="phone"><b>phone</b></label>
 <input type="text" placeholder="Enter your phone" name="phone" required>
-
+<br>
+<br>
 
 <label for="Location"><b>City  </b></label>
  <input type="text" placeholder="Enter City Location" name="Location" required>
+<br>
 
 
 <p><label for="bio"><b>bio:</b></label></p>
  <textarea id="bio " name="bio " rows="4" cols="50">
  </textarea>
  <br>
- 
+ <br>
 
 
  <div >
-<button type="button" onclick>Cancel</button>
-<button type="submit" class="signup">Sign Up</button>
+<input type="button" value="Cancel" class="details-button">
+
+<input type="button" value="Signup" class="details-button">
+<input type="button" value="Edit" class="details-button">
+
+
 </div>
 
 </form>
