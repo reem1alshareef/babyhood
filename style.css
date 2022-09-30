@@ -371,6 +371,18 @@
          background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
          
         }
+        .signUpbabysitter{
+          
+          width: 44%;
+          margin-left:28% ;
+          padding: 10px;
+          text-align: center;
+          border:solid 9px rgb(196, 232, 243);
+          background-color:rgb(255, 255, 255);
+          
+        margin-top: 30px;
+
+        }
 
       
  
