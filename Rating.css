@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.background{
+  background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg); }
+
+ h1.your-experince{
+  position: absolute;
+  top: 4%;
+  left: 40%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+     text-align: center;
+     color: rgb(2, 2, 38);
+ }
+
+ .user-photo{
+  position: absolute;
+  top: 10%;
+  left: 44%;
+ }
+ h3.babysitter-name{
+  position: absolute;
+  top: 30%;
+  left: 47%; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+     text-align: center;
+     color: rgb(2, 2, 38);
+ }
+
+.center{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center .stars{
+  height: 150px;
+  width: 500px;
+  text-align: center;
+}
+.stars input{
+  display: none;
+}
+.stars label{
+  float: right;
+  font-size: 100px;
+  color: lightgrey;
+  margin: 0 5px;
+  text-shadow: 1px 1px #bbb;
+}
+.stars label:before{
+  content: '★';
+}
+.stars input:checked ~ label{
+  color: gold;
+  text-shadow: 1px 1px #c60;
+}
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label{
+  color: gold;
+}
+.stars input:checked > label:hover,
+.stars input:checked > label:hover ~ label{
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+.stars .result:before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 50%;
+  transform: translateX(-47%);
+  bottom: -30px;
+  font-size: 30px;
+  font-weight: 500;
+  color: gold;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+}
+.stars input:checked ~ .result:before{
+  display: block;
+}
+.stars #five:checked ~ .result:before{
+  content: "Excellent";
+}
+.stars #four:checked ~ .result:before{
+  content: "Great";
+}
+.stars #three:checked ~ .result:before{
+  content: " Good ";
+}
+.stars #two:checked ~ .result:before{
+  content: " Bad";
+}
+.stars #one:checked ~ .result:before{
+  content: "Very bad ";
+}
+
+p.review-box{
+  position: absolute;
+  top: 49%;
+  left: 37%
+}
+
+.details-button{
+  position: absolute;
+  top: 67% ;
+  left: 46%;
+  display: inline-block;
+background-color:  rgb(196, 232, 243);
+border-radius: 10px;
+border: 4px double #000000;
+color: #000000;
+text-align: center;
+font-size: 15px;
+padding: 2px;
+width: 150px;
+height: 40px;
+}
+.details-button:hover{
+ background-color: rgb(135, 145, 159);  }
+
+ h1.thank-you{
+  position: absolute;
+  top: 40% ;
+  left: 45%; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+     text-align: center;
+     color: rgb(2, 2, 38);
+ }
+
+ h2.submitted-thank{
+  position: absolute;
+  top: 45% ;
+  left: 30%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  text-align: center;
+  color: rgb(2, 2, 38);
+ }
+
