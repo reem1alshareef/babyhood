@@ -334,6 +334,8 @@
           bottom: 500px;
          
          }
+
+         
          .babysitter-profile{
           float: left;
           width: 29%;
@@ -364,10 +366,6 @@
       border-color: rgb(121, 199, 232);
       margin-top: 50px;
       }
-  
-
-
-        
         .parent{
          margin-top: 60px;
          background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
