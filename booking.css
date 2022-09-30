@@ -1,9 +1,11 @@
 .tableBooking{
     text-align: center;
     font-size: 15px;
+    color:rgb(6, 44, 58);
     font-family:Arial, Helvetica, sans-serif;
     margin-left:33%;
-    margin-top: 100px;
-    background-color: rgba(214, 238, 246, 0.858);
+    margin-top: 30px;
+    background-color: rgba(185, 231, 246, 0.858);
     border-radius: 4px;
+
   }
