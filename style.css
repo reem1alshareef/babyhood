@@ -254,10 +254,10 @@
    background-color: rgb(135, 145, 159);  }
    .Cancel-request-button{
      display: inline-block;
-     background-color: rgb(71, 126, 142);
-     border-radius: 10px;
-     border: 4px double #cccccc;
-     color: #ffffff;
+     background-color:  rgb(196, 232, 243);
+       border-radius: 10px;
+       border: 4px double #000000;
+       color: #000000;
      text-align: center;
      font-size: 15px;
      padding: 2px;
@@ -284,10 +284,10 @@
      background-color: rgb(135, 145, 159);  }
      .Send-request-button{
        display: inline-block;
-       background-color:  rgb(71, 126, 142);
+       background-color:  rgb(196, 232, 243);
        border-radius: 10px;
-       border: 4px double #cccccc;
-       color: #ffffff;
+       border: 4px double #000000;
+       color: #000000;
        text-align: center;
        font-size: 15px;
        padding: 2px;
