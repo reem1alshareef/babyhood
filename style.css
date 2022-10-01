@@ -34,7 +34,7 @@
    }
   .job-request-page{
      text-align: left;
-     background-color: aliceblue;
+     background-color: rgb(255, 255, 255);
      width: 50%;
      margin-left: 25%;}
    
@@ -331,8 +331,8 @@ text-align: center;
       margin-top: 50px;}
        
         .signUp{
-          width: 44%;
-        
+          
+         width: 44%;
           margin-left:28% ;
           padding: 10px;
           text-align: center;
