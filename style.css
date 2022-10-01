@@ -302,14 +302,14 @@ text-align: center;
          
          .babysitter-profile{
           float: left;
-          width: 29%;
+          width: 31%;
           padding: 10px;
           height: 300px;
           text-align: center;
           border:solid 9px rgb(196, 232, 243);
           background-color:rgb(255, 255, 255);
-          margin-left: 12px;
-        margin-top: 30px;
+          margin-left: 15px;
+        margin-top: 25px;
         }
         
         .details-button{
