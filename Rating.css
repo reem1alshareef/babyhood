@@ -3,12 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
-
-
 .background{
   background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg); }
-
  h1.your-experince{
   position: absolute;
   top: 4%;
@@ -21,12 +19,12 @@
 
  .user-photo{
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 44%;
  }
  h3.babysitter-name{
   position: absolute;
-  top: 30%;
+  top: 38%;
   left: 47%; 
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-style: italic;
@@ -36,7 +34,7 @@
 
 .center{
   position: absolute;
-  top: 38%;
+  top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -105,13 +103,13 @@
 
 p.review-box{
   position: absolute;
-  top: 49%;
-  left: 37%
+  top: 66%;
+  left: 34%
 }
 
 .details-button{
   position: absolute;
-  top: 67% ;
+  top: 90%;
   left: 46%;
   display: inline-block;
 background-color:  rgb(196, 232, 243);
@@ -129,8 +127,8 @@ height: 40px;
 
  h1.thank-you{
   position: absolute;
-  top: 40% ;
-  left: 45%; 
+  top: 55% ;
+  left: 43%; 
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-style: italic;
      text-align: center;
