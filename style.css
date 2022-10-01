@@ -269,7 +269,7 @@
  .Cancel-request-button:hover{
    background-color: rgb(135, 145, 159);}
    
-     .Edit-request-button{
+     .New-Job-Request-button{
        display: inline-block;
        background-color:  rgb(71, 126, 142);
        border-radius: 10px;
@@ -278,9 +278,9 @@
        text-align: center;
        font-size: 15px;
        padding: 2px;
-       width: 200px;
-       height: 28px;}
-   .Edit-request-button:hover{
+       width: 30%;
+       margin-left: 33%;}
+   .New-Job-Request-button:hover{
      background-color: rgb(135, 145, 159);  }
      .Send-request-button{
        display: inline-block;
