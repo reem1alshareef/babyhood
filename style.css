@@ -333,7 +333,8 @@
          background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);}
         .signUp{
           width: 44%;
-        
+         margin-top: 5%;
+         margin-bottom:5% ;
           margin-left:28% ;
           padding: 10px;
           text-align: center;
