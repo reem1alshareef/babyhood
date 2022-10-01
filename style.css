@@ -8,15 +8,11 @@
    text-align: left;
    border:solid 9px rgb(196, 232, 243);
    background-color:rgb(255, 255, 255);}
-  
-   
-   .photo{
+.photo{
     float: right;
-    padding: 0%;
-   }
+    padding: 0%}
    .background{
-     background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
-   }
+     background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);}
    .background h1{
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-style: italic;
@@ -26,18 +22,13 @@
        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        font-style: italic;
        text-align: center;
-       color: rgb(53, 72, 79);
-     
- 
-   }
+       color: rgb(53, 72, 79);}
    h1.New-Job-Request{
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-style: italic;
      text-align: center;
      color: rgb(2, 2, 38);}
-     
-   
-   h4.New-Job-Request {
+    h4.New-Job-Request {
      color: rgb(62, 71, 79);
      text-align: center;
    }
@@ -341,16 +332,18 @@
          margin-top: 60px;
          background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);}
         .signUp{
-         width: 44%;
+          width: 44%;
+        
           margin-left:28% ;
           padding: 10px;
           text-align: center;
           border:solid 9px rgb(196, 232, 243);
           background-color:rgb(255, 255, 255);
-          margin-top: 50px;}
+          
+           }
           .footer{
-            position: absolute;
-            top: 90%;
+            position: fixed;
+            top: 85%;
             width: 100%;
             height: 100px;
             text-align: center;
