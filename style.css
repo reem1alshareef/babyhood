@@ -348,6 +348,17 @@
           border:solid 9px rgb(196, 232, 243);
           background-color:rgb(255, 255, 255);
           margin-top: 50px;}
-
+          .footer{
+            position: absolute;
+            top: 90%;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            background-color: #ffffff;}
+          .home{
+            background-image: url(../web-project/watercolor-cloud-pattern-background-2-1.jpg);
+            background-repeat: repeat-x;
+            background-color: #fff;}
+          
       
  
