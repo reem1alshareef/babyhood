@@ -34,11 +34,12 @@
   }
   
   .ul-style{
-    text-indent: 7%;
-      list-style: none;
-      background-color: white;
+  text-indent: 7%;
+  list-style: none;
+  background-color: white;
   height: 45px;
   align-items:center;
+  
   
  
   }
