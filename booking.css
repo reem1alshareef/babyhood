@@ -11,6 +11,7 @@
   }
   .tableBooking a{
     text-decoration: none;
+    color: #000000;
   }
   .status-button{
  display: inline-block;
