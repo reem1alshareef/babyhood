@@ -103,8 +103,14 @@
 
 p.review-box{
   position: absolute;
-  top: 66%;
+  top: 70%;
   left: 34%
+}
+
+h1.review-label{
+  position: absolute;
+  top: 66%;
+  left: 48%
 }
 
 .details-button{
