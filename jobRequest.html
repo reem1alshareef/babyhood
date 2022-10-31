@@ -8,16 +8,8 @@
     <link rel="stylesheet" href="../web-project/style.css">
     <title> jobRequest</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-    
-    $(".more").hide();});
-    
-        $(document).ready(function(){
-  $("#show").click(function(){
-    $(".more").toggle();
-  });
-});
+    <script src="events.js">
+ 
     </script>
 </head>
 <body class="background">
@@ -46,6 +38,7 @@
        
         <p class="my-kids-in-jobRequest">
             <fieldset>
+                <p>
                 <legend><strong> My kids:</strong></legend>
                 <label>name:</label>
                 <input name="names" type="text" size="10">
@@ -64,52 +57,14 @@
                 <input name="names" type="text" size="10">
                 <label>age:</label>
                 <input name="names" type="text" size="2">
-                <p class="more">
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2">
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2">
-                <br><br>
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2">
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2"><br><br>
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2">
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2"><br><br>
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2">
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2"><br><br>
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2">
-                <label>name:</label>
-                <input name="names" type="text" size="10">
-                <label>age:</label>
-                <input name="names" type="text" size="2">
+            </p>
+                <p id="more">
+               hello there!!
                 </p>
                 
-                <button id="show">Show</button>
+               
         </fieldset>
+        <button class="details-button" onclick="displaySong1()">more kids?</button>
         </p>
         
         <p>
@@ -167,20 +122,21 @@
                 
                 <label>
                  How many days? 
-                <input type="text" size="6">
+                <input type="number" size="6" name="daysNum">
                 </label>
             </p>
             <p>
                 <label>
                     How many hours? 
-                <input type="text" size="6">
+                <input type="number" size="6" name="hoursNum">
                 </label>
                 <br>
                 <br>
                
                 <label>
-                 when do you like to start?
-                <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+                 when do you like to start?<br>
+                 <input type="date" size="6" name="date"><br><br>
+                <input type="time" size="6" name="time" >
                </label>
             </fieldset>
             </p>

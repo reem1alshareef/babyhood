@@ -295,10 +295,11 @@ text-align: center;
           width: 400px;
           margin-left: 500px;
           position: relative;
-          bottom: 450px;
-         
-         }
-
+          bottom: 450px;}
+          #more
+          {
+            display:none;
+          }
          
          .babysitter-profile{
           float: left;
