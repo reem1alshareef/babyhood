@@ -16,21 +16,17 @@
               <b> <img src="../web-project/cloud.png" width="50" height="50">babyhood<b>
               
               <div class="w3-right w3-hide-small">
-                <a href="../web-project/ParentHomePage.html" class="w3-bar-item w3-button">Home</a>
-                
-                <a href="../web-project/viewOfferList.html" class="w3-bar-item w3-button">Offer list</a>
-               
-                <a href="../web-project/jobRequest.html" class="w3-bar-item w3-button">job request</a>
+             
 
               </div>
             </div>
-          <br><br><br><br><br>
+          <br> <br> <br> <br> <br>
           
 
  <div class="signUp" >
         <h1>Sign Up</h1>
  <h3>Please fill in this form to create an account.</h3>
- <form method="post">
+ <form method="post" action="signUpBabysitter.php">
 
 <label for="Name"><b>First Name </b></label>
  <input type="text" placeholder="Enter First Name" name="Name" required>
@@ -46,7 +42,7 @@
  <br>
  <br>
 
- <label for="age"><b>age</b></label>
+ <label for="age"><b>Age</b></label>
  <input type="text" placeholder="Enter age" name="age" required>
 
 <br>
@@ -78,25 +74,19 @@
 <label for="Location"><b>City  </b></label>
  <input type="text" placeholder="Enter City Location" name="Location" required>
 <br>
-
-
 <p><label for="bio"><b>bio:</b></label></p>
  <textarea id="bio " name="bio " rows="4" cols="50">
  </textarea>
  <br>
  <br>
-
-
  <div >
 <input type="button" value="Cancel" class="details-button">
 
-<input type="button" value="Signup" class="details-button">
+<input type="button"  name= "submit" type="submit" value="Signup" class="details-button">
 
 <br>
 <br>
 </div>
-
-
 </form>
 </div>
 
