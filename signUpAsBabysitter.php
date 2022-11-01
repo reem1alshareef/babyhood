@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>signUpbabysitter</title> 
-        <link rel="stylesheet" type="text/css" href="../web-project/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="../web-project/style.css">
 
@@ -26,18 +26,18 @@
  <div class="signUp" >
         <h1>Sign Up</h1>
  <h3>Please fill in this form to create an account.</h3>
- <form method="post" action="signUpBabysitter.php">
+ <form method="post" action="http://localhost/webpr/signUpBabysitter.php">
 
-<label for="Name"><b>First Name </b></label>
- <input type="text" placeholder="Enter First Name" name="Name" required>
+<label for="FName"><b>First Name </b></label>
+ <input type="text" placeholder="Enter First Name" name="Fname" required>
 <br>
 <br>
-<label for="Name"><b>Last Name </b></label>
- <input type="text" placeholder="Enter Last Name" name="Name" required>
+<label for="LName"><b>Last Name </b></label>
+ <input type="text" placeholder="Enter Last Name" name="Lname" required>
  <br>
  <br>
 
- <label for="ID"><b>ID </b></label>
+ <label for="ID"><b> ID </b></label>
  <input type="text" placeholder="Enter ID" name="ID" required>
  <br>
  <br>
@@ -48,7 +48,7 @@
 <br>
 <br>
 <Label>Gendre:</Label>
- <input type="radio" name="gender" value="male"> Male
+ <input type="radio" name="gender" value="male" checked> Male
  <input type="radio" name="gender" value="female"> Female
  <br>
  <br>
@@ -59,7 +59,7 @@
 <br>
 
  <label for="Pic"><b>Upload a photo </b></label>
- <input type ="file "onchange ="readURL(this)"accept="image/*">
+ <input type ="file "onchange ="readURL(this)"accept="image/*" name="photo">
 <br>
 <br>
  <label for="psw"><b>Password</b></label>
@@ -67,7 +67,7 @@
 <br>
 <br>
 <label for="phone"><b>phone</b></label>
-<input type="text" placeholder="Enter your phone" name="phone" required>
+<input type="text" placeholder="Enter your phone munber" name="phone" required maxlength="10">
 <br>
 <br>
 
@@ -75,14 +75,14 @@
  <input type="text" placeholder="Enter City Location" name="Location" required>
 <br>
 <p><label for="bio"><b>bio:</b></label></p>
- <textarea id="bio " name="bio " rows="4" cols="50">
+ <textarea id="bio " name="bio" rows="4" cols="50" required>
  </textarea>
  <br>
  <br>
  <div >
 <input type="button" value="Cancel" class="details-button">
 
-<input type="button"  name= "submit" type="submit" value="Signup" class="details-button">
+<input  name= "submit" type="submit" value="Signup" class="details-button">
 
 <br>
 <br>
