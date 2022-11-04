@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     
-    <link rel="stylesheet" type="text/css" href="../web-project/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="../web-project/style.css">
+    
     <title> jobRequest</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="events.js">
@@ -34,7 +34,7 @@
     <div class="job-request-page">
    <h1 class="New-Job-Request">New Job Request </h1>
    <h4 class="New-Job-Request">Find your perfect babysitter right now! </h4>
-   <form action="#" method="post">
+   <form action="jobRequestDS.php" method="post">
        
         <p class="my-kids-in-jobRequest">
             <fieldset>
@@ -42,10 +42,10 @@
                 
             <label>name/s: <br><span style="font-size:x-small;">-if you have more than one kid, separate them by a comma.- </span></label>
              <br>   
-            <input name="names" type="text" size="50">
+            <input name="names" type="text" size="50" required>
             <br>
                 <label>age/s:<br><span style="font-size:x-small;">-If you have more than one kid, separate them by a comma and rank them respectively.- </span></label>
-                <input name="ages" type="text" size="50">
+                <input name="ages" type="text" size="50" required>
               
             </p>
                 
@@ -59,7 +59,7 @@
 
                 <br>
             <label>
-                <input name="service" type="checkbox" value="meals">
+                <input name="service" type="checkbox" value="meals" checked>
                 Preparing meals and snacks
             </label>
             <br>
@@ -95,7 +95,7 @@
             <br>
             <br>
             <label>other services:
-                <input type="text" size="40" name="other services">
+                <input type="text" size="40" name="otherServices">
             </label>
             
             <br>
@@ -113,12 +113,12 @@
                
                 <label>
                 
-                 <input type="date" size="6" name="date"><br><br>
+                 <input type="date" size="6" name="date" required><br><br>
                  Start time:
-                <input type="time" size="6" name="Stime" >
+                <input type="time" size="6" name="Stime" required>
                 <br><br>
                 End time:
-                <input type="time" size="6" name="Etime" >
+                <input type="time" size="6" name="Etime" required>
                </label>
             </fieldset>
             </p>
